@@ -1,0 +1,131 @@
+/* Inzaqi Rizkan Zakaria */
+/* 41823010069 */
+/* TB-1 Pemrograman Web */
+
+.fotoprofil{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profil{
+    display: flex;
+    gap: 50px;
+    text-align:center;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-profil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.menu-profil button{
+    background-color: #dddee0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.menu-profil img {
+    background-color: #dddee0;
+    padding-top: 4px;
+    border-radius: 5px;
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sorotan {
+    width: 50px;
+    height:50px;
+    border-radius: 500%;
+    object-fit: cover;
+    margin: top 9px;
+    cursor: pointer;
+}
+
+.menu-beranda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.menu-beranda img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.menu-beranda img:hover {
+    transform: scale(1.1);
+}
+
+.postingan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4px;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.postingan img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.postingan img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bagi img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 55px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; 
+    padding: 10px 0; 
+    z-index: 100;
+    cursor: pointer; 
+}
+
+
+.home img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
+    transition: transform 0.3s; 
+}
+
+.home img:hover {
+    transform: scale(1.1);
+}
